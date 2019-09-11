@@ -35,7 +35,7 @@ foreach ($events['events'] as $event) {
 }
 }
 $Topic = "NodeMCU1" ;
-$text = 'text';
+$text = 'message';
 getMqttfromlineMsg($Topic,$text);
 echo "OK3";
 ?>
